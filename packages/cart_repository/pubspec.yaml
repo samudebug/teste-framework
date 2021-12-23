@@ -1,0 +1,17 @@
+name: cart_repository
+description: Pacote para abstrair funções do Carrinho
+publish_to: none
+
+version: 1.0.0
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  firebase_database: ^9.0.4
+  realtime_database_repository:
+    path: ../realtime_database_repository
+
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
